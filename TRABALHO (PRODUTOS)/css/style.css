@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px;
+}
+h1 {
+  text-align: center;
+  font-size: 50px;
+}
+h2 {
+  font-weight: normal;
+}
+
+img {
+  max-width: 100%;
+  grid-row: 1/5;
+}
+.produtos {
+  gap: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.item {
+  border: solid 1px black;
+  border-radius: 4px;
+  display: grid;
+  padding: 20px;
+  background-color: rgba(218, 213, 213, 0.381);
+  gap: 20px;
+}
+span {
+  text-align: center;
+}
+a {
+  background-color: lightblue;
+  border-radius: 4px;
+  text-align: center;
+  padding: 10px 20px;
+  text-decoration: none;
+  place-self: center;
+  width: 100px;
+  height: 10;
+}
